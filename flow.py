@@ -34,7 +34,7 @@ def generate_word(model, tokenizer, max_length, seed_text):
             break
     return out_word
  
- 
+
 def load_data(file_name, size):
     data = ''
     with open(file_name) as f:
